@@ -1,52 +1,60 @@
 package org.main;
 
 public class Temperature {
-  // default to 20°C
+  // default to 20° Celsius
   private float temp = 20.0f;
-  private Unit tempUnit = Unit.CELSIUS;
+  private TempUnit tempUnit = TempUnit.CELSIUS;
 
   public Temperature() {
+    // empty ctor for default values
   }
-  public Temperature(float t, Unit u) {
+  public Temperature(float t, TempUnit u) {
     this.temp = t;
     this.tempUnit = u;
   }  
 
   private float toFahrenheit() {
-    return this.tempUnit == Unit.RETARDED ? this.temp : (this.temp * 1.8f) + 32f;
+    return this.tempUnit == TempUnit.KELVIN ? 
+      ((this.temp - 273.15f) * 1.8f) + 32f : (this.temp * 1.8f) + 32f;
   }
 
   private float toCelsius() {
-    return this.tempUnit == Unit.CELSIUS ? this.temp : (this.temp - 32f) / 1.8f;
+    return this.tempUnit == TempUnit.KELVIN ? 
+      this.temp - 273.15f : (this.temp - 32f) / 1.8f;
   }
 
   private float toKelvin() {
-    return this.tempUnit == Unit.KELVIN ? this.temp : this.temp - 273.15f;
+    return this.tempUnit == TempUnit.CELSIUS ? 
+      this.temp - 273.15f : ((this.temp - 32f) / 1.8f) + 273.15f;
   }
 
   /*
    * GET
    */
+  public TempUnit getUnit() {
+    return this.tempUnit;
+  }
+
   public float getTemp() {
     return this.temp;
   }
 
   // only works from Celsius -> U
-  public float getTemp(Unit u) {
+  public float getTemp(TempUnit u) {
+    if (this.tempUnit == u) {
+      return this.temp;
+    }
+
     switch (u) {
       case CELSIUS:
         return toCelsius();
       case KELVIN:
         return toKelvin();
-      case RETARDED:
+      case FAHRENHEIT:
         return toFahrenheit();
       default:
         return this.temp;
     }
-  }
-
-  public Unit getUnit() {
-    return this.tempUnit;
   }
 
   /*
@@ -56,14 +64,8 @@ public class Temperature {
     this.temp = t;
   }
   
-  public void setTemp(float t, Unit u) {
+  public void setTemp(float t, TempUnit u) {
     this.temp = t;
     this.tempUnit = u;
   }
-}
-
-enum Unit {
-  KELVIN,
-  CELSIUS,
-  RETARDED
 }
