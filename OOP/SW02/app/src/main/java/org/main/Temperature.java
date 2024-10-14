@@ -13,6 +13,7 @@ public class Temperature {
     this.tempUnit = u;
   }  
 
+  
   private float toFahrenheit() {
     return this.tempUnit == TempUnit.KELVIN ? 
       ((this.temp - 273.15f) * 1.8f) + 32f : (this.temp * 1.8f) + 32f;
@@ -57,6 +58,7 @@ public class Temperature {
     }
   }
 
+  
   /*
    * SET
    */
@@ -67,5 +69,12 @@ public class Temperature {
   public void setTemp(float t, TempUnit u) {
     this.temp = t;
     this.tempUnit = u;
+  }
+
+  // should work?
+  public void changeTemp(float t, TempUnit u) {
+    float delta = this.getTemp(u) + t;
+
+    this.temp = delta;
   }
 }
