@@ -14,7 +14,7 @@ public class MinMaxTest {
   @Test
   void TestMax() {
     final MinMax mm = new MinMax();
-    assertEquals(10, mm.min(5, 10));
+    assertEquals(10, mm.max(5, 10));
   }
 
   @Test
