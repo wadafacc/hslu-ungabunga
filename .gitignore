@@ -4,7 +4,6 @@
 # Ignore Gradle build output directory
 build
 a.out
-main
 
 *.pdf
 .DS_Store
