@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.main.App"
+    mainClass = "ch.hslu"
 }
 
 tasks.named<Test>("test") {
