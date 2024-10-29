@@ -7,6 +7,10 @@ public class App {
 
   public static void main(String[] args) {
     SW06();
+
+
+    int i = 3;
+    System.out.println(6 / i + 1.3f);
   }
 
   public static void SW06() {
