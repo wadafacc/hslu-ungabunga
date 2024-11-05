@@ -20,16 +20,16 @@ public class TemperatureTest {
 
   @Test
   void smallerTest() {
-    assertEquals(t1.compareTo(t2), -1);
+    assertEquals(t2.compareTo(t3), -1);
   }
-
+  
   @Test
   void biggerTest() {
-    assertEquals(t2.compareTo(t1), 1);
+    assertEquals(t3.compareTo(t2), 1);
   }
-
+  
   @Test
   void equalsTest() {
-    assertEquals(t2.compareTo(t3), 0);
+    assertEquals(t2.compareTo(t1), 0);
   }
 }

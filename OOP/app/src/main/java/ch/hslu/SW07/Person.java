@@ -41,6 +41,7 @@ public class Person implements Comparable<Person>{
 
   @Override
   public final boolean equals(Object obj) {
+    if (this == obj) return true;
     return obj instanceof Person other && id == other.id;
   }
 
