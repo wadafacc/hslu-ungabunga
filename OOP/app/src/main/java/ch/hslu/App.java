@@ -1,16 +1,30 @@
 package ch.hslu;
 
+import java.util.Scanner;
+
 import ch.hslu.SW02.*;
 import ch.hslu.SW06.Point;
 
 public class App {
 
   public static void main(String[] args) {
-    SW06();
+    SW09();
+  }
 
+  public static void SW09() {
+    String input;
+    Scanner scanner = new Scanner(System.in);
+    do {
+    System.out.println("Bitte Temperatur eingeben (oder 'exit' zum Beenden): ");
+    input = scanner.next();
+    try {
+      float value = Float.valueOf(input);
+    } catch (Exception e) {
+      System.err.println("Invalid Value!");
+    }
 
-    int i = 3;
-    System.out.println(6 / i + 1.3f);
+    } while (!"exit".equals(input));
+    System.out.println("Programm beendet.");
   }
 
   public static void SW06() {

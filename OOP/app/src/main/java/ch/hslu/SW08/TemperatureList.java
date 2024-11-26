@@ -1,6 +1,7 @@
 package ch.hslu.SW08;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 import ch.hslu.SW02.TempUnit;
@@ -23,8 +24,11 @@ public class TemperatureList implements ITemperatureList {
   }
 
   public Temperature getMax() {
-    this.templist.sort((a,b) -> { return a.compareTo(b); });  // hmm
-    return this.templist.getFirst();
+    if (this.templist.isEmpty()) {
+      return null;
+    }
+
+    return Collections.max(this.templist);
   }
 
   @Override
