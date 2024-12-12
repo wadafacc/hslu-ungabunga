@@ -4,11 +4,20 @@ import java.util.Scanner;
 
 import ch.hslu.SW02.*;
 import ch.hslu.SW06.Point;
+import ch.hslu.SW11.FileHandler;
 
 public class App {
 
   public static void main(String[] args) {
-    SW09();
+    SW11();
+  }
+
+  public static void SW11() {
+    var f = new FileHandler();
+
+    f.Write();
+    
+    f.Read();
   }
 
   public static void SW09() {
