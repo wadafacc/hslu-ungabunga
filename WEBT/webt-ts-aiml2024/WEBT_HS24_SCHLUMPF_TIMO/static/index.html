@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./img/splash.ico" type="image/x-icon">
+  <title>BLÅBÄR</title>
+</head>
+
+<body onload="setCookie()" class="w3-mobile">
+  <section id="nav">
+    <h1 class="logo">blåbär - url shortener</h1>
+    <button id="hamburger" class="w3-button w3-right" onclick="w3_open()">&#9776;</button>
+    <div class="w3-sidebar w3-bar-block w3-collapse nav" id="sidebar">
+      <button onclick="w3_close()" class="w3-hide-large">&times;</button>
+      <a href="#infos" class="w3-bar-item w3-button">infos</a>
+      <a href="#inputs" class="w3-bar-item w3-button">inputs</a>
+      <a href="#outputs" class="w3-bar-item w3-button">outputs</a>
+    </div>
+  </section>
+  <section id="infos">
+    <h2>about</h2>
+    <div class="w3-row">
+      <div class="w3-half w3-mobile">
+        <p>This web application allows you to store & shorten your favorite urls and keep track of how many you've made!
+        </p>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum consectetur laborum dolorem qui fugit
+          voluptatum, labore at saepe optio culpa fuga ipsa nulla eos veritatis cupiditate, pariatur suscipit nobis!
+          Perferendis?</p>
+      </div>
+      <div class="w3-half w3-mobile flex">
+        <img src="./img/splash.png" alt="splash image!">
+      </div>
+    </div>
+  </section>
+  <section id="inputs">
+    <h2>input</h2>
+    <div class="w3-row">
+      <form onsubmit="uploadData()" id="data-form" class="w3-twothird">
+        <input type="url" placeholder="your url:" name="url" required oninput="validateUrl()" id="input-url">
+        <input type="text" placeholder="name your link (to remember)" name="title" required>
+        <input type="datetime-local" name="date" name="date" required>
+        <button type="submit">save!</button>
+        <div id="errors">
+        </div>
+      </form>
+      <div class="w3-third flex">
+        <canvas id="static-canvas" width="168" height="168"></canvas>
+      </div>
+    </div>
+  </section>
+  <section id="outputs">
+    <h2>output</h2>
+
+  <div class="w3-row" id="output" hidden>
+    <div class="w3-half">
+      <h3>submitted link:</h3>
+      <p>title: <span id="title"></span></p>
+      <p>url: <a id="url" target="_blank"></a></p>
+      <p>archival date: <span id="date"></span></p>
+    </div>
+    <div class="w3-half">
+      <h3>shortened url:</h3>
+      <a id="shortened" target="_blank"></a>
+      <p><i>uploaded urls: <span id="count"></span></i></p>
+    </div>
+  </div>
+  </section>
+
+  <footer>made for WEBT.</footer>
+</body>
+
+<script src="./js/main.js"></script>
+<script src="./js/canvas.js"></script>
+<script src="./js/form.js"></script>
+
+</html>
