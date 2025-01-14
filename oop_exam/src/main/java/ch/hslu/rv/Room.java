@@ -3,7 +3,7 @@ package ch.hslu.rv;
 public final class Room implements Comparable<Room> {
   private final int roomNumber;
   private final int capacity;
-  private Status state; 
+  private Status state;
 
   public Room(final int roomNumber, final int capacity) throws Exception {
     if (roomNumber < 99 || roomNumber > 999) {
@@ -26,8 +26,12 @@ public final class Room implements Comparable<Room> {
     return this.capacity;
   }
 
-  public Status getRoomState() {
+  public Status getState() {
     return this.state;
+  }
+
+  public boolean isFree() {
+    return this.state == Status.FREE;
   }
 
   @Override
@@ -37,8 +41,10 @@ public final class Room implements Comparable<Room> {
 
   @Override
   public boolean equals(Object other) {
-    if (other == null) return false;
-    if (this == other) return true;
+    if (other == null)
+      return false;
+    if (this == other)
+      return true;
 
     return this.hashCode() == other.hashCode();
   }
