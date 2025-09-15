@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="155mm" height="15mm" viewBox="-2 -2 603 43" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Copyright (C) 2020-2021 Rudy Matela -->
+  <title>Flowchart of a solution to the repeat1 exercise (cscx.org/repeat1)</title>
+  <desc>Flowchart of a solution to the repeat1 exercise (cscx.org/repeat1).  Copyright (C) 2020-2021 Rudy Matela  </desc>
+  <g id="Background"/>
+  <g id="Background">
+    <text font-size="2.25778" style="fill: #cccccc; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="50" y="19.4639">
+      <tspan x="50" y="19.4639">title: Flowchart of a solution to the repeat1 exercise (cscx.org/repeat1)</tspan>
+      <tspan x="50" y="22.2861">Copyright (C) 2020-2021 Rudy Matela</tspan>
+    </text>
+    <g>
+      <path style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" d="M 16.6667 0 L 83.3333,0 C 92.5381,0 100,8.9543 100,20 C 100,31.0457 92.5381,40 83.3333,40 L 16.6667,40 C 7.46192,40 0,31.0457 0,20 C 0,8.9543 7.46192,0 16.6667,0z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="50" y="26.4">
+        <tspan x="50" y="26.4">Start</tspan>
+      </text>
+    </g>
+    <g>
+      <path style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" d="M 516.667 0 L 583.333,0 C 592.538,0 600,8.9543 600,20 C 600,31.0457 592.538,40 583.333,40 L 516.667,40 C 507.462,40 500,31.0457 500,20 C 500,8.9543 507.462,0 516.667,0z"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="550" y="26.4">
+        <tspan x="550" y="26.4">End</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="104.01" y1="20" x2="132.492" y2="20"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="132.492,25 142.492,20 132.492,15 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="277.029" y1="20" x2="312.471" y2="20"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="312.471,25 322.471,20 312.471,15 "/>
+    </g>
+    <g>
+      <polygon style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="154.559,0 280,0 265.441,40 140,40 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="210" y="25.7">
+        <tspan x="210" y="25.7">Read Int-number x</tspan>
+      </text>
+    </g>
+    <g>
+      <polygon style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="334.559,0 460,0 445.441,40 320,40 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="390" y="25.7">
+        <tspan x="390" y="25.7">Print number x</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 1; stroke: #000000" x1="457.008" y1="20" x2="485.49" y2="20"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 1; stroke: #000000" fill-rule="evenodd" points="485.49,25 495.49,20 485.49,15 "/>
+    </g>
+  </g>
+</svg>

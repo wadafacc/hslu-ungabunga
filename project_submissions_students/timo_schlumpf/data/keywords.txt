@@ -1,0 +1,429 @@
+potato
+potatoes
+spud
+tuber
+solanum
+solanaceae
+cultivar
+variety
+seed
+crop
+root
+vegetable
+harvest
+yield
+farming
+agriculture
+irrigation
+planting
+cultivation
+pesticide
+fertilizer
+organic
+soil
+drainage
+rotation
+growing
+climate
+season
+disease
+resistance
+storage
+sprouting
+breeding
+genetics
+price
+cost
+demand
+supply
+export
+import
+wholesale
+retail
+trade
+economy
+inflation
+volume
+statistics
+trend
+report
+index
+commodity
+forecast
+market
+usd
+euro
+ton
+acreage
+nutrition
+vitamin
+fiber
+carbohydrate
+glycemic
+protein
+calories
+cholesterol
+diet
+health
+antioxidant
+mineral
+potassium
+iron
+magnesium
+starch
+glycoalkaloid
+resistant
+french fries
+chips
+mashed
+baked
+fried
+boiled
+hash brown
+instant
+frozen
+dehydrated
+processing
+industrial
+manufacturer
+consumer
+packaging
+publication
+study
+data
+pdf
+summary
+abstract
+journal
+experiment
+whitepaper
+analysis
+evaluation
+center
+usda
+eurostat
+indexbox
+cip
+plant
+field
+agronomy
+botany
+farm
+plot
+biomass
+node
+sprout
+shoot
+foliage
+eye
+underground
+edible
+solstice
+temperate
+photosynthesis
+tillage
+compost
+mulch
+cover crop
+no-till
+irrigated
+rainfed
+weeding
+mechanical
+manual
+tractor
+plow
+sow
+harrow
+agronomist
+extension
+nursery
+cooperative
+agtech
+precision
+input
+output
+crop cycle
+exporter
+importer
+tariff
+quota
+logistics
+shipment
+transport
+freight
+broker
+buyer
+supplier
+retailer
+trader
+marketplace
+demand curve
+price ceiling
+price floor
+supply chain
+distribution
+global
+domestic
+regional
+inventory
+surplus
+shortage
+benchmark
+recipe
+cuisine
+dish
+meal
+serve
+roast
+seasoning
+kitchen
+ingredient
+sauce
+side dish
+snack
+comfort food
+home cooking
+microwave
+meal prep
+leftovers
+peel
+skin
+mash
+gravy
+soup
+salad
+shepherd's pie
+taxonomy
+phenotype
+genome
+transgenic
+hybrid
+gene
+RNA
+DNA
+molecular
+pathogen
+biosynthesis
+enzyme
+metabolite
+trial
+control group
+yield response
+growth rate
+field test
+longitudinal
+agroecology
+peer-reviewed
+dataset
+replicate
+significance
+FAO
+CGIAR
+IRRI
+ICAR
+DEFRA
+NASS
+ERS
+WTO
+OECD
+UN
+IFPRI
+GMO
+biofortification
+russet
+yukon
+red potato
+fingerling
+purple potato
+white potato
+yellow potato
+baby potato
+creamer
+sweet potato
+gold potato
+blue potato
+heirloom
+starchy
+waxy
+mealy
+all-purpose
+new potato
+kennebec
+desiree
+maris piper
+king edward
+golden wonder
+red bliss
+idaho
+bintje
+norland
+nika
+jelly
+belmonda
+blight
+late blight
+early blight
+phytophthora
+alternaria
+nematode
+aphid
+beetle
+potato beetle
+bacterial wilt
+blackleg
+scab
+common scab
+powdery scab
+silver scurf
+fusarium
+verticillium
+rhizoctonia
+mosaic virus
+leafroll
+PVY
+PVX
+storage rot
+tuber moth
+thrips
+spraing
+cyst nematode
+india
+china
+usa
+canada
+europe
+africa
+asia
+latin america
+uk
+netherlands
+belgium
+germany
+france
+bangladesh
+nepal
+peru
+andes
+mexico
+poland
+ireland
+russia
+ukraine
+tasmania
+idaho
+maine
+manitoba
+sichuan
+bihar
+andhra
+punjab
+gmo
+non-gmo
+certified organic
+pesticide-free
+gap certified
+globalgap
+fair trade
+sustainable
+food grade
+residue
+traceability
+iso
+haccp
+compliance
+safe handling
+cold chain
+quality grade
+grading
+inspection
+testing
+labeling
+nutrition facts
+barcode
+batch
+expiry
+fssai
+efsa
+usda organic
+drones
+sensor
+iot
+automation
+yield monitor
+satellite
+aerial imagery
+NDVI
+greenhouse
+tunnel
+irrigation drip
+sprinkler
+GIS
+remote sensing
+weather station
+robotics
+AI
+machine learning
+blockchain
+carbon footprint
+sustainability
+input efficiency
+cloud
+field map
+ecommerce
+soil sensor
+climate smart
+regenerative
+decision support
+demand trend
+consumer preference
+purchase intent
+price trend
+seasonal price
+snacking
+health trend
+plant-based
+vegan
+gluten-free
+whole30
+low carb
+low glycemic
+superfood
+trending recipe
+buzzword
+social media
+food influencer
+meal kit
+subscription box
+shelf life
+best before
+pack size
+serving size
+subsidy
+crop insurance
+extension service
+loan
+agricultural policy
+research grant
+pilot project
+food security
+nutrition program
+school meals
+relief aid
+agri-credit
+trade agreement
+quota system
+sanctions
+WTO agreement
+import ban
+price support
+biosecurity
+CAP
+farm bill
+APEDA
+ICAR
+NRSP
+CGIAR
+FAOSTAT
+statistical bulletin
+reporting center

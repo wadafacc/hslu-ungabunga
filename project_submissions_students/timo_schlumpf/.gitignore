@@ -1,0 +1,8 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+target/
+
+.DS_Store
+
+out_v2.json
+
+__pycache__
