@@ -16,10 +16,6 @@ def insertion_sort(data):
   for i in range(1, len(data)):
     key = data[i]
     j = i - 1
-
-    # Move elements of arr[0..i-1], that are
-    # greater than key, to one position ahead
-    # of their current position
     while j >= 0 and key < data[j]:
         data[j + 1] = data[j]
         j -= 1
