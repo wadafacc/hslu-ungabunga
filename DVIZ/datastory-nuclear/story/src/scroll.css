@@ -1,0 +1,30 @@
+.scroll-container {
+  position:fixed;
+  right: 0;
+  top: 2.5%;
+  height: 100%;
+  width: 5%;
+  z-index: 99;
+  overflow: hidden;
+}
+
+#scroll-dot {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(7px,0);
+
+  width: 16px;
+  background-color: var(--black);
+  aspect-ratio: 1;
+
+  border-radius: 100%;
+}
+
+#scroll-bg {
+  position: relative;
+  border-left: 2px dashed black;
+  height: 20px;
+  max-height: 95%;
+  width: -2px;
+}

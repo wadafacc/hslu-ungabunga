@@ -1,0 +1,42 @@
+#reactor-timeline {
+  position: relative;
+  padding: 50px 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.timeline-container {
+  position: relative;
+  height: 150px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 90%;
+  height: 2%;
+  background: var(--black);
+}
+
+.timeline-event {
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.timeline-event h4 {
+  margin-top: 40px;
+}
+
+.timeline-event .year {
+  margin-bottom: 5px;
+  font-size: 32px;
+}
+
+.timeline-event .event-content {
+  color: var(--black);
+  padding: 5px;
+  font-size: 12px;
+  text-wrap-mode: wrap;
+}
