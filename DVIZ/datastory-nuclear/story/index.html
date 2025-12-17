@@ -80,77 +80,23 @@
   </section>
   <section id="reactor-evolution">
     <h3>atomic heart.</h3>
-    <h4>nuclear reactors have evolved massively over time.</h4>
     <div class="content">
-      <section id="reactor-timeline">
-        <div class="timeline-container">
-          <div class="timeline-line"></div>
-
-          <div class="timeline-event" style="left: 0%;">
-            <span class="year">1942</span>
-            <div class="event-content">
-              <h4>Chicago Pile‑1</h4>
-              <p>First controlled nuclear chain reaction.</p>
-            </div>
-          </div>
-
-          <div class="timeline-event" style="left: 10%;">
-            <span class="year">1957</span>
-            <div class="event-content">
-              <h4>Shippingport PWR</h4>
-              <p>First US commercial PWR.</p>
-            </div>
-          </div>
-
-          <div class="timeline-event" style="left: 25%;">
-            <span class="year">1965</span>
-            <div class="event-content">
-              <h4>PWR (standardized)</h4>
-              <p>Industrial-scale commercial reactors; reliable and standardized.</p>
-            </div>
-          </div>
-
-          <div class="timeline-event" style="left: 35%;">
-            <span class="year">1970</span>
-            <div class="event-content">
-              <h4>BWR (commercial)</h4>
-              <p>Simpler boiling water design; easier heat extraction.</p>
-            </div>
-          </div>
-
-          <div class="timeline-event" style="left: 55%;">
-            <span class="year">1994</span>
-            <div class="event-content">
-              <h4>ABWR</h4>
-              <p>Generation III; improved safety and efficiency.</p>
-            </div>
-          </div>
-
-          <div class="timeline-event" style="left: 65%;">
-            <span class="year">2000</span>
-            <div class="event-content">
-              <h4>AP1000</h4>
-              <p>Passive safety systems; longer lifetime.</p>
-            </div>
-          </div>
-
-          <div class="timeline-event" style="left: 75%;">
-            <span class="year">2010s</span>
-            <div class="event-content">
-              <h4>VVER-1200</h4>
-              <p>Improved PWR; high safety and output.</p>
-            </div>
-          </div>
-
-          <div class="timeline-event" style="left: 90%;">
-            <span class="year">2020s</span>
-            <div class="event-content">
-              <h4>SMRs / Gen IV</h4>
-              <p>Modular, scalable, innovative cooling/fuel; future deployment.</p>
-            </div>
-          </div>
+      <p>nuclear reactors have evolved massively over time.</p>
+      <div class="timeline-container flex flex-center">
+        <div id="timeline-min"></div>
+        <div id="timeline-max"></div>
+        <div class="line flex flex-vert" id="timeline">
+          <!-- dots get created here -->
         </div>
-      </section>
+      </div>
+      <div class="text-container" id="text-container">
+        <div class="details-text">
+          <div id="obj-year"></div>
+          <div id="obj-title"><center><i>hover over a dot for insights</i></center></div>
+          <div id="obj-desc"></div>
+        </div>
+        <img class="details-img" src="./src/images/atom_black.gif" alt="">
+      </div>
     </div>
   </section>
   <section id="energy-mix">
@@ -177,6 +123,6 @@
   </section>
 </body>
 <script src="./src/scripts/scroll.js"></script>
-<script src="./src/scripts/charts.js"></script>
+<script src="./src/scripts/evolution.js"></script>
 
 </html>
