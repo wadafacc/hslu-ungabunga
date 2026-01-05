@@ -92,39 +92,64 @@
       <div class="text-container" id="text-container">
         <div class="details-text">
           <div id="obj-year"></div>
-          <div id="obj-title"><center><i>hover over a dot for insights</i></center></div>
+          <div id="obj-title">
+            <center><i>hover over a dot for insights</i></center>
+          </div>
           <div id="obj-desc"></div>
         </div>
-          <div class="details-img">
-            <video id="obj-img" src="" autoplay loop muted playsinline width="40%" height="40%"></video>
-          </div>
       </div>
     </div>
   </section>
   <section id="energy-mix">
     <h3>nuclear is powering the world, or is it?</h3>
     <div class="content">
-      <h4>despite being one of the cleanest energy sources just above wind turbines, it's barely producing ~10% of global energy.</h4>
-      <img src="./src/images/nuclear_electricity_share_world_styled.png" alt="">
+      <div class="flex">
+        <p>
+          While <b>Coal (34.3%, dark grey)</b> and <b>Gas (22.0%, medium grey)</b> expanded relentlessly to meet global
+          demand, Nuclear energy barely grew. Its share has remained a thin, steady sliver for nearly four
+          decades—despite available uranium and technology, we simply stopped building. Each new city, factory, or
+          digital network added demand, yet we chose fossil fuels over nuclear.
+          <br>
+          <br>
+          Click the diagram to toggle between views.
+        </p>
+        <div class="flex col w-66">
+          <img src="./src/images/global_electricity_generation_by_source.svg"
+          data-url="./src/images/global_share_of_electricity_by_source_lines.svg" onclick="swap('img-emix')"
+          id="img-emix">
+        </div>
+      </div>
     </div>
   </section>
-  <section id="today">
-    <h3>the state today.</h3>
+  <section id="today" class="inverted">
+    <img src="./src/images/waves/wave_black_top.svg" class="wave wave-top">
+    <h3>Of Corpses and Wreckages</h3>
     <div class="content">
-      <h4>nuclear is one of the safest sources of electricity currently available - yet it remains one of the lowest producing sources. Thanks, Lobbyism.</h4>
-      <img src="./src/images/death_rates_energy_production_transparent.png" alt="">
-      <h4>even on a global scale, nuclear incidents remain few with little to no casualties given the safety improvements of newer reactor models.</h4>
-      <img src="./src/images/nuclear_incidents_deaths_by_year_transparent.png" alt="">
+      <p>nuclear is one of the safest sources of electricity currently available - yet it remains one of the lowest
+        producing sources. Thanks, Lobbyism.</p>
+      <div id="bubbles">
+        <!-- bubbles will be created here?-->
+      </div>
+
+      <p>even on a global scale, nuclear incidents remain few with little to no casualties given the safety
+        improvements of newer reactor models.</p>
+      <img src="./src/images/nuclear_incidents_deaths_by_year.svg" alt="">
     </div>
+    <img src="./src/images/waves/wave_black_bot.svg" class="wave wave-bot">
   </section>
   <section id="phase-out">
     <h3>the end of a nuclear age.</h3>
     <div class="content">
-      <p>Despite its proven safety record and low environmental impact, nuclear energy faces a slow decline. Public fear, fueled by historical accidents, and aggressive lobbying from competing energy industries have stifled investment and innovation. Many countries are phasing out reactors prematurely, prioritizing short-term politics over long-term climate goals. As a result, an energy source capable of providing reliable, low-carbon power risks being sidelined, marking the possible end of a nuclear era.</p>
+      <p>Despite its proven safety record and low environmental impact, nuclear energy faces a slow decline. Public
+        fear, fueled by historical accidents, and aggressive lobbying from competing energy industries have stifled
+        investment and innovation. Many countries are phasing out reactors prematurely, prioritizing short-term politics
+        over long-term climate goals. As a result, an energy source capable of providing reliable, low-carbon power
+        risks being sidelined, marking the possible end of a nuclear era.</p>
     </div>
   </section>
 </body>
 <script src="./src/scripts/scroll.js"></script>
 <script src="./src/scripts/evolution.js"></script>
+<script src="./src/scripts/main.js"></script>
 
 </html>

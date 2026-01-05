@@ -1,0 +1,1 @@
+// creates the bubbles for the fatalities visualization
