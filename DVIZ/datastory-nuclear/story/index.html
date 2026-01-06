@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="./src/styles.css">
+  <link rel="stylesheet" href="./src/scroll.css">
+  <link rel="stylesheet" href="./src/history.css">
+  <link rel="stylesheet" href="./src/fatalities.css">
+  <link rel="stylesheet" href="./src/history.css">
+  <link rel="stylesheet" href="./src/evolution.css">
   <title>NUCLEAR</title>
 </head>
 
@@ -115,8 +120,8 @@
         </p>
         <div class="flex col w-66">
           <img src="./src/images/global_electricity_generation_by_source.svg"
-          data-url="./src/images/global_share_of_electricity_by_source_lines.svg" onclick="swap('img-emix')"
-          id="img-emix">
+            data-url="./src/images/global_share_of_electricity_by_source_lines.svg" onclick="swap('img-emix')"
+            id="img-emix">
         </div>
       </div>
     </div>
@@ -125,17 +130,24 @@
     <img src="./src/images/waves/wave_black_top.svg" class="wave wave-top">
     <h3>Of Corpses and Wreckages</h3>
     <div class="content">
-      <p>nuclear is one of the safest sources of electricity currently available - yet it remains one of the lowest
-        producing sources. Thanks, Lobbyism.</p>
-      <div id="bubbles">
-        <!-- bubbles will be created here?-->
-      </div>
+      <p>
+        Nuclear is one of the safest sources of electricity currently available - yet it remains one of the lowest
+        producing sources. Thanks, Lobbyism.
 
-      <p>even on a global scale, nuclear incidents remain few with little to no casualties given the safety
-        improvements of newer reactor models.</p>
-      <img src="./src/images/nuclear_incidents_deaths_by_year.svg" alt="">
-    </div>
-    <img src="./src/images/waves/wave_black_bot.svg" class="wave wave-bot">
+        Nuclear is one of the safest and cleanest energy sources currently available.<br> One TWh (Terrawatt - Hour)
+        comes at the "cheap" cost of 83 human lives, compared to the <span class="highlight">346'054</span> lives it takes for a TWh of coal-power.
+        <br>
+        Scroll to Zoom, Drag to move around.
+      </p>
+      <div id="zoom">
+        <div alt="bubbles graph" id="bubbles-graph">
+        </div>
+
+        <p>even on a global scale, nuclear incidents remain few with little to no casualties given the safety
+          improvements of newer reactor models.</p>
+        <img src="./src/images/nuclear_incidents_deaths_by_year.svg" alt="">
+      </div>
+      <img src="./src/images/waves/wave_black_bot.svg" class="wave wave-bot">
   </section>
   <section id="phase-out">
     <h3>the end of a nuclear age.</h3>
@@ -150,6 +162,7 @@
 </body>
 <script src="./src/scripts/scroll.js"></script>
 <script src="./src/scripts/evolution.js"></script>
+<script src="./src/scripts/fatalities.js"></script>
 <script src="./src/scripts/main.js"></script>
 
 </html>
