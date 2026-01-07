@@ -29,11 +29,6 @@
   border-radius: 8px;
 }
 
-svg path {
-  fill: var(--black) !important;
-}
-
-
 .phase-out { fill: var(--phase-out) !important; }
 .freeze { fill: var(--freeze) !important; }
 .expanding { fill: var(--expanding) !important; }

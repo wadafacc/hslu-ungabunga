@@ -41,7 +41,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     path.addEventListener("mousemove", e => {
       const { clientX, clientY } = e;
-      console.log(e)
       tooltip.animate([
         {
           top: `${clientY}px`,
