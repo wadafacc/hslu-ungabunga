@@ -57,7 +57,7 @@ zoom.addEventListener('wheel', (e) => {
   var xs = (e.clientX - pointX) / scale,
     ys = (e.clientY - pointY) / scale,
     delta = (e.wheelDelta ? e.wheelDelta : -e.deltaY);
-  (delta > 0) ? (scale *= 1.2) : (scale /= 1.2);
+  (delta > 0) ? (scale *= 1.1) : (scale /= 1.1);
   pointX = e.clientX - xs * scale;
   pointY = e.clientY - ys * scale;
 

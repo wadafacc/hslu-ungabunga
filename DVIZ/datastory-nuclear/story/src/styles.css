@@ -94,7 +94,7 @@ p {
 
 img {
   margin-bottom: 32px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 #landing, #quote {
@@ -147,6 +147,10 @@ img {
   font-size: 32px;
 }
 
+.diagram {
+  width: 100%;
+}
+
 .wave {
   position: absolute;
   width: 100vw;
@@ -177,7 +181,6 @@ img {
 .highlight {
   color: var(--orange) !important;
 }
-
 
 .debug {
   border: 1px solid red;
