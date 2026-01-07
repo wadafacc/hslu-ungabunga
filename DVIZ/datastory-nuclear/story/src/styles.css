@@ -21,9 +21,15 @@
   --solar: #ffd966;
   --bioenergy: #9c755f;
   --other-renewables: #cfcfcf;
+
+  --phase-out: var(--red);
+  --freeze: var(--hydro);
+  --expanding: var(--nuclear);
+  --never-adopted: var(--coal);
+  --restarting: var(--biomass);
 }
 
-body, hmtl {
+body, html {
   height: 100%;
   width: 100%;
   background-color: var(--off-white);
@@ -99,6 +105,10 @@ img {
 
 #landing, #quote {
   height: 100vh;
+}
+
+#formula {
+  margin: 32px 0;
 }
 
 .content {

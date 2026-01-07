@@ -1,0 +1,41 @@
+#phase-out {
+  position: relative;
+}
+
+#map-container {
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+  margin-top: 32px;
+}
+
+#map-container > svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  opacity: 0;
+  width: fit-content;
+  height: fit-content;
+  background-color: var(--coal);
+  color: var(--off-white);
+  z-index: 99;
+  transition: 0.1s;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+svg path {
+  fill: var(--black) !important;
+}
+
+
+.phase-out { fill: var(--phase-out) !important; }
+.freeze { fill: var(--freeze) !important; }
+.expanding { fill: var(--expanding) !important; }
+.restarting { fill: var(--restarting) !important; }
+.never-adopted { fill: var(--never-adopted) !important; }

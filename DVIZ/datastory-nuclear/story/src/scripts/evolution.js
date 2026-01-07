@@ -1,3 +1,8 @@
+/*
+-> Creates the Interactive Timeline chart
+
+*/
+
 const reactors = [
   {
     id: "evolution-1942",

@@ -1,3 +1,4 @@
+// Function for the swappable diagrams
 function swap(id) {
   const item = document.getElementById(id);
 
