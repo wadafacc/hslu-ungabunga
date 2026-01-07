@@ -23,8 +23,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   const ttState = document.getElementById("tt-state");
   const ttDate = document.getElementById("tt-date");
   const ttNote = document.getElementById("tt-note");
-
-  console.log(paths)
   for (let i = 0; i < paths.length; i++) {
     const path = paths[i];
     const data = mapData.find(e => e.code == path.id);
